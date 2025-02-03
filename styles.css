@@ -13,3 +13,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    width: 100%;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 525px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.text-container {
+    padding: 1.5em;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+}
+
+h1 {
+    font-family: Fraunces;
+    font-weight: 700;
+    margin: 1rem auto;
+}
+
