@@ -48,3 +48,9 @@ h1,
     font-weight: 700;
     font-size: 2rem;
 }
+
+.price, 
+.add-to-cart {
+    display: flex;
+    align-items: center;
+}
