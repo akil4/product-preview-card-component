@@ -1,7 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 ## Table of contents
 
 - [Overview](#overview)
@@ -14,9 +13,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,83 +25,94 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](Screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/akil4/product-preview-card-component](https://github.com/akil4/product-preview-card-component)
+- Live Site URL: [https://akil4.github.io/product-preview-card-component/](https://akil4.github.io/product-preview-card-component/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- **HTML**: Defines the structure of the card, including an image, text content, and a button.
+- **CSS**: Styles the component with:
+  - **Google Fonts** (Montserrat & Fraunces)
+  - **Flexbox** for layout management
+  - **Media queries** for responsiveness
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### What I Learned
 
-### What I learned
+While working on this project, I improved my understanding of fundamental front-end development concepts. Here are some key learnings:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+#### **1. Structuring HTML Semantically**
+I learned to use semantic tags for better accessibility and maintainability.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Gabrielle Essence Eau De Parfum</h1>
+<p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge.</p>
 ```
+
+#### **2. Using Flexbox for Layout**
+I practiced CSS Flexbox to create a responsive layout efficiently.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.text-container {
+  padding: 1em;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+#### **3. Styling Responsive Components**
+I applied media queries to ensure the card adapts to different screen sizes.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    margin: auto;
+  }
+}
+```
+
+#### **4. Enhancing User Experience with Hover Effects**
+Adding a hover effect to the button improved the interactivity of the project.
+
+```css
+.add-to-cart:hover {
+  background-color: hsl(200, 36%, 37%);
+}
+```
+
+This project helped reinforce my front-end skills and made me more confident in structuring and styling components. 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to continue refining and expanding my front-end skills in the following areas: 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+#### **1. CSS Grid for More Complex Layouts**
+While I used Flexbox for this project, I want to explore CSS Grid to create more advanced and flexible layouts.
+
+#### **2. Performance Optimization**
+I aim to improve page load speed by  optimizing images, reducing unnecessary CSS, and using better coding practices.
+
+#### **3. Accessibility Best Practices**
+Ensuring my projects are accessible to all users, including those with disabilities, by using proper ARIA attributes and testing with screen readers.
+
+These focus areas will help me become well-rounded front-end developer and prepare me for full-stack development.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Google Fonts - Source for typography customization.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Akil](https://akil4.vercel.app)
+- Frontend Mentor - [@akil4](https://www.frontendmentor.io/profile/akil4)
+- GitHub - [@akil4](https://www.github.com/akil4)
