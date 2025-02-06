@@ -28,8 +28,9 @@ body {
     font-size: 14px;
     background-color: hsl(30, 38%, 92%);
     display: flex;
+    justify-content:space-between;
     flex-direction: column;
-    padding: 1em;
+    padding: 2em 1em;
 }
 
 .container {
@@ -38,7 +39,7 @@ body {
     flex-wrap: wrap;
 }
 
-.image-container img {
+.image-container img{
     object-fit: cover;
     width: 100%;
     border-radius: 7px 7px 0 0;
