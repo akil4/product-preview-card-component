@@ -81,7 +81,7 @@ h1,
     align-items: center;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
     *,
     *::after,
     *::before {
@@ -115,5 +115,9 @@ h1,
 
     .add-to-cart {
         padding: 0.7em;
+    }
+
+    .price {
+        flex-wrap: wrap;
     }
 }
