@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html {
@@ -27,19 +27,43 @@ body {
     font-family: Montserrat;
     font-size: 14px;
     background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.text-container {
+    padding: 1em;
+}
+
+h1, 
+.price {
+    margin: 0.5rem auto;
 }
 
 .new-price {
     color: hsl(158, 36%, 37%);
+    margin-right: 1rem;
 }
 
 .add-to-cart {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
+    justify-content: center;
+    padding: 1em;
+    border-radius:7px;
 }
 
 h1, 
