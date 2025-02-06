@@ -68,6 +68,10 @@ h1,
     border-radius:7px;
 }
 
+.add-to-cart img {
+    margin-right: 10px;
+}
+
 .add-to-cart:hover {
     background-color: hsl(200, 36%, 37%);
 }
